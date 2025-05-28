@@ -12,7 +12,7 @@ declare module "@remix-run/node" {
 export default defineConfig({
 	plugins: [
 		remix({
-			presets: [vercelPreset()],
+			 presets: [vercelPreset()],
 			future: {
 				v3_fetcherPersist: true,
 				v3_relativeSplatPath: true,
