@@ -14,7 +14,6 @@
 		"seed": "tsx prisma/seed.ts"
 	},
 	"dependencies": {
-		"@neondatabase/serverless": "^1.0.0",
 		"@prisma/client": "^6.8.2",
 		"@prisma/extension-accelerate": "^2.0.0",
 		"@remix-run/node": "^2.16.7",
@@ -24,7 +23,8 @@
 		"dotenv": "^16.5.0",
 		"isbot": "^4.1.0",
 		"react": "^18.2.0",
-		"react-dom": "^18.2.0"
+		"react-dom": "^18.2.0",
+		"wrangler": "^4.17.0"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
